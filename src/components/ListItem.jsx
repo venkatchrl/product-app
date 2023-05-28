@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 
-const ListItem = () => {
+const ListItem = ({ product }) => {
   return (
     <div>
-      {/* <p>{product?.title}</p>
+      <p>{product?.title}</p>
       <img
         src={product?.image}
         alt={product?.category}
@@ -17,7 +17,7 @@ const ListItem = () => {
              dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
       >
         Buy Now
-      </button> */}
+      </button>
     </div>
   );
 };
